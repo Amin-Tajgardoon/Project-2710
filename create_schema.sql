@@ -632,7 +632,7 @@ COMMIT;
 -- -----------------------------------------------------
 START TRANSACTION;
 USE `project`;
-INSERT INTO `project`.`transaction` (`order_number`, `timestamp`, `total`, `id`) VALUES (123, 'current_timestamp', 60.50, 1);
+INSERT INTO `project`.`transaction` (`order_number`, `timestamp`, `total`, `id`) VALUES (123, current_timestamp(), 60.50, 1);
 
 COMMIT;
 
