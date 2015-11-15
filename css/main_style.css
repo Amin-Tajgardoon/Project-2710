@@ -1,0 +1,40 @@
+a {
+    color: #2c7b74;
+    text-decoration: none;
+}
+
+.Search-book {
+    font-family: "Open Sans",Arial,Helvetica Neue,Helvetica,sans-serif;
+    width: 70%;
+    position: relative;
+    height: 2.5rem;
+    color: #333;
+    font-size: .875rem;
+    line-height: 1.5rem;
+    padding: 0.5rem 112px 0.5rem 0.75rem;
+    background: #f3efea;
+    border: 1px solid #d7d7d7;
+    min-width: 0;
+}
+
+&.red   { @include flat-button-color(rgb(209,75,54)); }
+
+
+table{
+	width: 100%
+}
+
+.button1{
+	background: rgb(66, 184, 221); /* this is a light blue */
+	font-size: 70%;
+}
+
+.button2{
+	background: rgb(66, 184, 221); /* this is a light blue */
+	font-size: 70%;
+}
+
+.button3{
+	background: rgb(66, 184, 221); /* this is a light blue */
+	font-size: 70%;
+}
