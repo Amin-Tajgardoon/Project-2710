@@ -1,0 +1,157 @@
+<html>
+
+	<head>
+		<title> INFSCI 2710 Book Store </title>
+
+		<style type="text/css">
+
+		ul {
+    		list-style-type: none;
+   			margin: 0;
+    		padding: 0;
+		}
+
+		li {
+    		display: inline;
+		}
+
+		h1,h2,h3{
+			text-align: center;
+		}
+
+		h3{
+			font-weight:normal;
+		}
+
+		a{
+			text-decoration: none;
+			color: #dd3a3a;
+			font-weight: bolder;
+		}
+
+
+		table{
+			width: 60%;
+		}
+
+		#round_border{
+    		border-radius: 20px;
+    		background: #13bfe3;
+    		padding: 20px; 
+    		width: 300px;
+    		height: 240px;    
+		}
+
+		body{
+			background-color: #312b2b;
+			color:#FFF;
+			font-size: 18px;
+			font-family:'Helvetica Neue',sans-serif;
+		}
+
+		input{
+			width:216;
+			font-size: 14px;
+		}
+
+		form{
+			font-size: 16px;
+		}
+
+		.submit_button{
+			background: #FF5DB1;
+			background: -moz-linear-gradient(top,#FF5DB1 0%,#E94A86 100%);
+			background: -webkit-gradient(linear,left top,left bottom,color-stop(0%,#FF5DB1),color-stop(100%,#E94A86));
+			background: -webkit-linear-gradient(top,#FF5DB1 0%,#E94A86 100%);
+			background: -o-linear-gradient(top,#FF5DB1 0%,#E94A86 100%);
+			background: -ms-linear-gradient(top,#FF5DB1 0%,#E94A86 100%);
+			background: linear-gradient(top,#FF5DB1 0%,#E94A86 100%);
+			padding:5px 7px;
+			color:#fff;
+			font-size:14px;
+			border-radius:4px;
+			-moz-border-radius:4px;
+			-webkit-border-radius:4px;
+			border:1px solid #E8124F
+		}
+
+		.h2_color{
+			color: #000762;
+			
+		}
+
+
+		</style>
+
+
+	</head>
+
+	<body>
+	<br>
+	<h1 align="center"> INFSI 2710 : E-Commerce Store</h1>
+	<h2 align="center"> ( Online Book Store ) </h2>
+	<h4 align="center">  S.S.K.Anand Varanasi &nbsp; | &nbsp; Pedhran Gharani &nbsp; | &nbsp; Amin Tajgardoon</h4>
+	<br>
+	<hr>
+	<br>
+	<br>
+
+
+<TABLE align="center">
+	<tr align="center">
+
+	<td>	
+
+	<div id="round_border" align="left">
+		<h2 class="h2_color" > Customer Login </h2>
+
+
+
+		<form action="Cust_login.php" method="post">
+
+		username :&nbsp;<input type="text" name="emp_id" /><br><br>
+		password :&nbsp;<input type="text" name="emp_id" /><br><br>
+		<div align="right">
+			<input type="submit" class="submit_button" name="login" value="Log in" />
+		</div>
+		</form>
+		
+		<i> Don't have an account ?</i><a href="#"> Sign Up </a> <i>now</i>
+
+
+
+	</div>
+
+	</td>
+	<td>
+
+	<div id="round_border" align="left">
+		<h2 class="h2_color"> Admin Login </h2>
+
+
+
+		<form action="Cust_login.php" method="post">
+
+		username :&nbsp;<input type="text" name="emp_id" /><br><br>
+		password :&nbsp;<input type="text" name="emp_id" /><br><br>
+		<div align="right">
+			<input type="submit" class="submit_button" name="login" value="Log in" />
+		</div>
+		</form>
+		
+		<i> Forgot password ? </i><a href="#"> Recover </a> <i> it now</i>
+
+	</div>
+
+	</td>
+
+	</tr>
+</table>			
+
+
+
+
+	</body>
+
+
+</html>
